@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<style>
+
+  body{
+    padding:0;
+    margin:0;
+    display:flex;
+    flex-direction: column;
+  }
+   .title{
+    background-color:#322C2B;
+    background-size:cover;
+    margin:0;
+    padding:0;
+    margin-top:0;
+    height: 100vh;
+    
+    
+   }
+   .text{
+    color:#FCF8F3;
+    font-family:roboto;
+    font-size:80px
+   }
+   .karthik{
+    color:#0071e3;
+    text-shadow: 0 0 15px  ;
+   }
+   
+   
+   .intro-div{
+    margin-left:50px;
+   }
+   
+   .para{
+    font-size:30px;
+    font-weight:bolder;
+   }
+   .button{
+    background-color:#0071e3;
+    border:0;
+    border-radius:10px;
+    padding:10px;
+    font-weight:bolder;
+    color:white;
+    transition:0.2s;
+    margin-bottom:20px;
+    box-shadow:0 0 10px #0071e3;
+   }
+   .button:hover{
+    transition:0.2s;
+    transform:scale(110%);
+    box-shadow:0 0 20px 5px #0071e3;
+    
+   }
+   li{
+    list-style:none;
+   }
+   nav{
+    background-color:black;
+    height:8%;
+    padding:0;
+    position:fixed;
+    width:100%;
+    transition:0.2s;
+    z-index:2;
+   }
+   .navdiv1{
+    margin-right:100px;
+    transition:0.2s ease;
+   }
+   nav:hover{
+    transition:0.2s ease;
+    transform:scaleY(110%)
+   }
+  .navdiv1>ul{
+    display:flex;
+    padding:0;
+    margin:0;
+    justify-content: space-around;
+    margin-top:9px;
+   
+  } 
+  a{
+    color:aliceblue;
+    text-decoration: none;
+    font-weight:bolder;
+    font-family:roboto;
+    transition:0.2s;
+  }
+  a:hover{
+    transition:0.2s;
+    color:#0071e3;
+  }
+  .myservice{
+    display:flex;
+    align-items:center ;
+    background-color:#201d1d;
+    height:100vh;
+    align-items:center;
+    font-family:roboto;
+    gap:9px;
+    transition:0.2s;
+    
+    transition:1s;
+  }
+  
+  
+  .card{
+    box-shadow:0 0 8px black ;
+    text-wrap:wrap;
+    border-radius:40px;
+    text-align:center;
+    transition: 0.2s;
+    color:aliceblue;
+    background-color: #201d1d;
+    color:aliceblue;
+    height:290px;
+    margin-left:20px;
+    margin-right:20px;
+    box-shadow:0 9px 20px 5px #0071e3;
+  }
+  .card:hover{
+    transition:0.2s;
+   transform:scale(110%);
+   box-shadow:0 0 20px 5px ;
+   
+  }
+  
+  
+  
+  .abtme{
+    display:flex;
+    font-family: roboto;
+    height:90vh;
+    z-index:1
+  }
+  .desc>h1{
+    color:#0071e3;
+    text-shadow: 0 0 15px  ;
+  }
+  .desc>p{
+    color:#FCF8F3;
+    font-weight: bold;
+    padding:5px;
+    margin-top:5px
+  }
+  .me{
+    border-radius: 50%;
+    height:170px;
+    margin-top:100px;
+    margin-left:40px;
+    margin-right:40px;
+    box-shadow: 0 0 15px  ;
+  }
+  .pic{
+  
+    width:400px;
+    background-color:#322C2B ;
+    box-shadow: 0 0 10px;
+    text-align: center;
+    
+  }
+  .desc{
+    background-color: #201d1d;
+    width:auto;
+    box-shadow: 0 0 10px;
+  }
+  .w{
+    margin-left:50px;
+    margin-top:50px;
+  }
+  
+  .language{
+    color:#0071e3;
+    text-shadow: 0 9px 20px black;
+  }
+  
+ .b1{
+   width:130px;
+   margin-top:10px;
+   margin-left:40px;
+   margin-right: 40px;
+   
+ }
+ .b2{
+  width:95px;
+  margin-left:40px;
+  margin-right: 40px;
+ }
+ footer{
+  background-color: #0071e3;
+  text-align: center;
+  height:30px
+ }
+ .svg{
+  height:20px;
+
+ }
+ .ff{
+  background-color: #338be3;
+  height:20px
+ }
+
+
+  
+ 
+   
+  
+</style>
+<body>
+  <nav >
+    <div class="navdiv1">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li> <a href>about</a></li>
+        <li><a href="#">skills</a></li>
+        <li><a href="#"> services</a></li>
+        <li><a href="#">contact</a></li>
+    </ul>
+    </div>
+  </nav>
+<div class="title">
+  
+
+     <div class="intro-div"> 
+     <h1 class="text">Hi!<br/>Iam <span class=karthik>Karthik</span></h1>
+     <p class="text para">abshdk wuefhqerufkj</p>
+     <button class="button">Hire Me</button>
+     </div>
+</div>
+
+<div class="myservice">
+  
+  <div class="card">
+    <h3>skills</h3>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's sta</p>
+  </div>
+  <div class="card">
+    <h3>Proffenciency</h3>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's sta</p>
+  </div>
+  <div class="card"><h3>Hobbies</h3>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's sta</p></div>
+
+  
+  </div>      
+  <div class="abtme">
+    <div class="pic"><img class="me"src="./me.jpg">
+     <button class="button b1">contact me</button><br/>
+     <button class="button b2">Email</button>
+  </div>
+    <div class="desc"><h1 class=" w">About Me</h1><hr><br/><p class="w">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's sta</p></div>
+ </div>
+ <footer>
+  <img class="svg"src="./instagram.svg">
+  <img class="svg" src="./whatsapp.svg">
+  <img class="svg" src="./github.svg">
+
+  <footer class="ff">kdjjdf</footer>
+ </footer>
+</body>
+</html>
