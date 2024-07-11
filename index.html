@@ -65,7 +65,14 @@
    li{
     list-style:none;
    }
+   
+
+   
    nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
     background-color:black;
     height:8%;
     padding:0;
@@ -74,24 +81,17 @@
     transition:0.2s;
     z-index:2;
    }
-   .navdiv1{
-    
-    transition:0.2s ease;
+   
+   
 
-   }
+   
    nav:hover{
     transition:0.2s ease;
     transform:scaleY(110%)
    }
-  .navdiv1>ul{
-    display:flex;
-    padding:0;
-    margin:0;
-    justify-content: space-around;
-    margin-top:9px;
-    align-items: center;
+  
    
-  } 
+  
   a{
     color:aliceblue;
     text-decoration: none;
@@ -221,15 +221,15 @@
 </style>
 <body>
   <nav >
-    <div class="navdiv1">
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li> <a href>about</a></li>
-        <li><a href="#">skills</a></li>
-        <li><a href="#"> services</a></li>
-        <li><a href="#">contact</a></li>
-    </ul>
-    </div>
+    
+    
+        <a href="#">Home</a>
+        <a href>about</a>
+        <a href="#">skills</a>
+        <a href="#"> services</a>
+        <a href="#">contact</a>
+    
+    
   </nav>
 <div class="title">
   
