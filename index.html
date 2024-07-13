@@ -36,7 +36,9 @@
    .karthik{
     color:#0071e3;
     text-shadow: 0 0 15px  ;
+   
    }
+   
    
    
    .intro-div{
@@ -248,6 +250,28 @@
   align-items: center;
   
 }
+label{
+  position: relative;
+ 
+}
+input{
+  background-color: #322C2B;
+  border:0;
+  border-radius: 10px;
+  cursor:pointer;
+  color: #FCF8F3;
+  transition: 0.2s;
+  outline:none;
+  
+}
+
+input:focus{
+  transition: 0.5s;
+  transform: scale(110%);
+  box-shadow: 0 0 15px 5px #338be3;
+}
+
+
  
   
 </style>
@@ -258,8 +282,7 @@
         <a href="#">Home</a>
         <a href>resume</a>
         <a href="#">portfolio</a>
-        
-    
+        <label for="text"><input type="text" placeholder="Search"></label>    
     
   </nav>
 <div class="title" >
